@@ -1,5 +1,3 @@
-//! # Device
-//!
 //! This module exposes the `Device` trait, which provides methods for creating
 //! and managing graphics resources such as buffers, images and memory.
 //!
@@ -108,8 +106,6 @@ impl Error for FramebufferError {
 }
 
 
-/// # Overview
-///
 /// A `Device` is responsible for creating and managing resources for the physical device
 /// it was created from.
 ///
